@@ -1,20 +1,20 @@
 body,
 html {
   height: 100%;
-  color: #242423;
+  color: #7AE7C7;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Pacifico', cursive;
 }
 
 h1 {
   font-size: 36px;
-  color: white;
+  color: #3581B8;
   font-weight: 800;
 }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: #3581B8;
 }
 
 h3 {
@@ -34,17 +34,17 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Bitter', serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .bar-color{
-  background-color: #BBBBBC;
-  color: white;
+  background-color: #50514F;
+  color: #3581B8;
 }
 
 #myNavbar {
@@ -58,29 +58,44 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  background-color: #533A71;
+  color: #7AE7C7;
 }
 
 .nav-change {
-  background-color: white;
+  background-color: #533A71;
 }
 
+#about {
+    Background-color: #3581B8      
+}
+#portfolio {
+    Background-color: #3581B8
+}
+#contact {
+    Background-color: #3581B8
+}
+.fullwidth{
+    width:100%;
+}
+#contactcolor {
+    background-color: #533A71
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/MoonLight2.png');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/Lost.png');
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('../img/HappySad.png');
   min-height: 400px;
 }
 
@@ -109,8 +124,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #616161;
-  color: white;
+  background-color: #533A71;
+  color: #7AE7C7;
   overflow: hidden;
   width: 100%;
   height: 0;
